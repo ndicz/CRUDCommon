@@ -3,6 +3,7 @@ using CRUDCommon;
 using Microsoft.AspNetCore.Mvc;
 using R_BackEnd;
 using R_Common;
+using R_CommonFrontBackAPI;
 
 namespace CRUDService
 {
@@ -52,5 +53,19 @@ namespace CRUDService
         }
 
 
+        public R_ServiceGetRecordResultDTO<CustomerDTO> R_ServiceGetRecord(R_ServiceGetRecordParameterDTO<CustomerDTO> poParameter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public R_ServiceSaveResultDTO<CustomerDTO> R_ServiceSave(R_ServiceSaveParameterDTO<CustomerDTO> poParameter)
+        {
+            throw new NotImplementedException();
+        }
+
+        public R_ServiceDeleteResultDTO R_ServiceDelete(R_ServiceDeleteParameterDTO<CustomerDTO> poParameter)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
